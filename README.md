@@ -23,6 +23,7 @@ The following **additional** features are implemented:
 
 - [x] List anything else that you can get done to improve the app functionality!
 * [x] User is able to change the the light/dark theme
+* [x] Swip to change between screens
 
 ## Video Walkthrough 
 
