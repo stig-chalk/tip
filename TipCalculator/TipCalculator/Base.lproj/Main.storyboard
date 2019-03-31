@@ -110,6 +110,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="DtO-hC-uTo" appends="YES" id="FxY-Nd-G1U"/>
+                            <outletCollection property="gestureRecognizers" destination="vhU-WJ-9uj" appends="YES" id="ryP-7p-jsR"/>
                         </connections>
                     </view>
                     <navigationItem key="navigationItem" title="Tip Calculator" id="YuE-ZD-hhY">
@@ -135,6 +136,11 @@
                         <action selector="onTap:" destination="BYZ-38-t0r" id="EVG-cs-ger"/>
                     </connections>
                 </tapGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="vhU-WJ-9uj">
+                    <connections>
+                        <segue destination="b3h-BY-3hR" kind="show" id="MCk-ie-0mt"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1077.5999999999999" y="93.103448275862078"/>
         </scene>
@@ -206,7 +212,11 @@
                             </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
                         <viewLayoutGuide key="safeArea" id="WZ3-Ax-NHE"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="dDr-Kx-pVd" appends="YES" id="wQx-Jf-8MM"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="J0r-MS-OZI"/>
                     <connections>
@@ -216,8 +226,13 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IN2-Yt-2tT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="dDr-Kx-pVd">
+                    <connections>
+                        <action selector="onTap:" destination="b3h-BY-3hR" id="Xj6-fb-iw1"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1692" y="92.203898050974516"/>
+            <point key="canvasLocation" x="2068" y="93"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="dA4-5q-YGY">
@@ -238,4 +253,7 @@
             <point key="canvasLocation" x="138.40000000000001" y="93.103448275862078"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="01p-G9-0fb"/>
+    </inferredMetricsTieBreakers>
 </document>

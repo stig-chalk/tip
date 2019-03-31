@@ -21,7 +21,9 @@ class SettingViewController: UIViewController {
 
         
     }
-    
+    @IBAction func onTap(_ sender: Any) {
+        view.endEditing(true)
+    }
     @IBAction func resetOne(_ sender: Any) {
         
         let r0 = Double(rate0.text!) ?? udf.double(forKey: "rate0")

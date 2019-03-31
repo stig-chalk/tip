@@ -24,6 +24,7 @@ class ViewController: UIViewController {
         dft.set(0.15, forKey:"rate0")
         dft.set(0.18, forKey:"rate1")
         dft.set(0.20, forKey:"rate2")
+        self.bill.becomeFirstResponder()
     }
 
     @IBAction func lightOn(_ sender: Any) {
