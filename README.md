@@ -31,11 +31,13 @@ Here's a walkthrough of implemented user stories:
 
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+GIF created with [Recordit](http://www.recordit.co).
+http://g.recordit.co/zsukuET4m9.gif
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+It's my first time ever trying to finish a app using Xcode and Swift. The biggest challenge is that I wasn't really familiar with this software and this programming language. Even though I looked through the whole guiding video, I still had a hard start. One of the biggest problem is about using the UserDefault to store the data from one screen at get access it from another screen. I did a lot of efforts including reading documentations and watch instructive videos before I finally got through. What's more, setting and changing the segement control's titles based on the default values and user's input is also challenging for me, since I had to display the rates in proper form and also had to calculate the tip using the updated rates. 
 
 ## License
 
